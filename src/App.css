@@ -1,33 +1,71 @@
 .App {
   text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.logo-header {
+  height: 200px;
+  border: 1px solid black;
+  width: 100%;
+  background-color: purple;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body-section {
+  height: 665px;
+}
+
+.about-us {
+  background-color: teal;
+  width: 20%;
+  height: 100%;
+  position: relative;
+  border: 2px solid black;
+}
+
+.event-wrapper {
+  width: 25%;
+}
+
+.towns-and-shops {
+  width: 100%;
+  height: 50%;
+  background-color: crimson;
+  position: relative;
+  border: 2px solid black;
+
+}
+
+.event-connection {
+  width: 100%;
+  height: 50%;
+  background-color: forestgreen;
+  position: relative;
+  border: 2px solid black;
+
+}
+
+.calendar {
+  width: 100%;
+  background-color: #FFB642;
+  position: relative;
+  border: 2px solid black;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.center-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  transform: translate(-50%, -50%);
 }
